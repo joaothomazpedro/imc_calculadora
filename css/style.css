@@ -5,11 +5,12 @@ body{
 
 .title_site{
     color: white;
-    margin: 5% 45% 5% 45%;
+    margin: 2% 45% 2% 45%;
 }
 
 .container{
-    margin-left: 20%;
+    margin: 0% 20% 20% 20%;
+    /*  */
     height: 80%;
     width: 60%;
     background-color: rgb(33, 38, 45);
@@ -19,13 +20,11 @@ body{
 .label_form{
     display: block;
     margin: 5% 40% 10% 40%;
-    /* margin-left: 40%; */
     text-align: center;
-    
     border-style: none;
     background: none;
     color: white;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .btn_form{
@@ -41,7 +40,10 @@ body{
 }
 
 .btn_form:hover{
-    background-color: greenyellow;
-    animation-duration: 500ms;
+    background-color: rgb(8, 220, 8);
+    animation-duration: 800ms;
+    width: 11%;
+    padding: 2%;
+    font-size: 90%;
 }
 
