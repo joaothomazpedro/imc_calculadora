@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(13, 17, 23);
+    background-color: #0d1f2d;
 }
 
 .title_site{
@@ -9,31 +9,41 @@ body{
 }
 
 .container{
+    position: absolute;
     margin: 0% 20% 20% 20%;
-    /*  */
     height: 80%;
     width: 60%;
-    background-color: rgb(33, 38, 45);
+    background-color: #00a5cf;
+    border-radius: 3%;
+    box-shadow: 7px 7px 7px #535050;
+
     
 }
 
 .label_form{
     display: block;
-    margin: 5% 40% 10% 40%;
+    margin: 8% 38.5% 10% 38.5%;
     text-align: center;
     border-style: none;
     background: none;
     color: white;
     padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
 }
+
+.label_form::placeholder {
+    color: rgb(224, 224, 224);
+    text-decoration: underline;
+  }
 
 .btn_form{
     display: block;
-    margin: 10% 47.5% 10% 47.5%;
+    margin: 20% 47.5% 5% 47.5%;
     background-color: green;
     color: white;
     border-style: none;
-    border-radius: 11%;
+    border-radius: 5%;
     width: 10%;
     padding: 1%;
     
