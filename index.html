@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/style.css">
+    
     <script src="js/main_script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X      +965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 class="title_site">Calculadora</h1>
+    <h1 class="text-center" style="color: rgb(0, 0, 0);">Calculadora</h1>
 
     <form action="" class="form">
         <div class="container">
-            <!-- <label for="peso" class="label_form"> -->
-                <input type="number" placeholder="Peso em Kilogramas" class="label_form" id="label_peso"> 
-            <!-- </label> -->
-            
-            <!-- <label for="Altura" class="label_form"> -->
-                <input type="number" placeholder="Altura em Metros" class="label_form" id="label_altura"> 
-            <!-- </label> -->
 
-                <input type="button" value="Enviar" id="btn_formd" class="btn_form">
+                <input type="number" placeholder="Peso em Kilogramas" class="form-control bg-light mb-5" id="label_peso" style="justify-content: center; color:black"> 
+            
+                <input type="number" placeholder="Altura em Metros" class="form-control bg-light mb-5" id="label_altura" style="justify-content: center; color:black"> 
+
+            <button type="submit" id="btn_formd" class="btn btn-primary w-100 fs-6 green" 
+            style="background-color: gray;"> Enviar </button>
         </div>
     </form>
-    
 </body>
 </html>
