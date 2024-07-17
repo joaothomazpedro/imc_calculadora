@@ -50,8 +50,7 @@ window.onload = function calculo() {
     }
 
     finally {
-        /* Limpando values */
-        peso.value = "";
-        altura.value = "";
+            /* Limpando values */
+            reset_input()
     }
 }
