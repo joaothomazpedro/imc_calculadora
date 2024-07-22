@@ -8,9 +8,5 @@ Formulário
   Apresentando o cálculo logo abaixo
 
 **NOTAS
-A SER FEITO:
-  Criação de Tratamento de ERRO
-    - Validação nos valores dos inputs
-  Melhorias na Responsividade 
-  Mudanças no Design
+Digite seu peso e altura e o navegador mostrará um alert com seu IMC
 
