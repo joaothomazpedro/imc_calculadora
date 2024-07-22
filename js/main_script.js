@@ -5,10 +5,9 @@ window.onload = function calculo() {
         btn.addEventListener("click", function () {
             var peso = document.getElementById("label_peso")
             var altura = document.getElementById("label_altura")
-
+                    
             imc = peso.value / (Math.pow(altura.value, 2))
-            console.log(typeof(imc))
-
+            
             resultado = imc.toFixed(2).toString()
             
             /* Limpar values */
@@ -17,6 +16,11 @@ window.onload = function calculo() {
                 altura.value = "";
             }
             
+            if(imc == ""){
+                alert("Digite um valor válido")
+                reset_input()
+                return
+            }
             if (imc == Infinity){
                 alert("Digite um valor válido")
                 reset_input()
